@@ -48,4 +48,8 @@ function myFunction() {
 }
 myFunction();
 
-// since closures used to inner function to access  the outer valiables , the `nestedfunction()` has access to the outer variable (`internal`.)
+//Answer
+
+// Closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function’s variables.
+// Therefore, at the example,  the `nestedfunction()` found in side 'myFunction()' which has 'internal' as variable. And this 
+// gives the `nestedfunction()` to has access to the outer variable (`internal`.).
